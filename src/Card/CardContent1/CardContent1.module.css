@@ -1,0 +1,86 @@
+.CardContent1 {
+  text-align: center;
+  position: relative;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  padding-top: 1rem;
+  padding-bottom: 0.2rem;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CardContent1 h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.CardContent1 p {
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+  margin-bottom: 4rem;
+  color: hsl(0, 0%, 48%);
+}
+
+.CardContent1 img {
+  position: absolute;
+  top: -7.4rem;
+  transform: translateX(-50%);
+}
+
+.bookMobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .CardContent1 {
+    text-align: center;
+    position: relative;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .CardContent1 div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .CardContent1 h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    width: 22.7rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .CardContent1 p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+  }
+
+  .CardContent1 img {
+    position: absolute;
+    top: -7.4rem;
+    transform: translateX(-50%);
+  }
+
+  .bookMobile {
+    display: block;
+    height: 5.6rem;
+    width: 5.6rem;
+    background-image: url('../../images/icon-bookmark.svg');
+  }
+
+  .bookMobile:hover {
+    cursor: pointer;
+  }
+
+  .bookedMobile {
+    background-image: url('../../images/icon-bookmarked.svg');
+  }
+}

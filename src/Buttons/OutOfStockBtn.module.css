@@ -1,0 +1,11 @@
+.outOfStockBtn {
+  border: none;
+  color: white;
+  background-color: rgb(144, 144, 144);
+  font-weight: 500;
+  border-radius: 100px;
+  height: 4.8rem;
+  width: 15.7rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.9px;
+}

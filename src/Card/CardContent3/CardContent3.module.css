@@ -1,0 +1,43 @@
+.cardContent3 {
+  padding: 0.3rem;
+}
+.cardContent3 h2 {
+  font-size: 2rem;
+}
+.cardContent3 p {
+  margin-top: 3.4rem;
+  font-size: 1.5rem;
+  line-height: 2;
+  letter-spacing: 0.5px;
+  color: rgb(122, 122, 122);
+}
+
+.cardContent3 .p2 {
+  margin-top: 3rem;
+  padding-bottom: 1.6rem;
+}
+
+.outOfStock {
+  opacity: 0.57;
+}
+
+@media (max-width: 600px) {
+  .cardContent3 h2 {
+    padding-top: 1.2rem;
+  }
+  .cardContent3 p {
+    margin-top: 2.5rem;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+  }
+
+  .cardContent3 .p2 {
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .outOfStock {
+    opacity: 0.57;
+  }
+}

@@ -1,0 +1,106 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.completedModal {
+  position: absolute;
+  top: 30.8rem;
+  left: 53.4%;
+  transform: translateX(-50%);
+  z-index: 100;
+  height: auto;
+  width: 54rem;
+  background-color: white;
+  border-radius: 8px;
+  padding: 3.5rem 3.1rem 4.8rem 4.7rem;
+}
+
+.iconCheck {
+  margin: 1.4rem auto 0;
+  height: 9rem;
+  width: 9rem;
+  background-image: url('../images/icon-check.svg');
+  background-size: cover;
+}
+
+.title {
+  margin-top: 4.7rem;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.message {
+  margin-top: 1.7rem;
+  width: 44.4rem;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.8;
+  color: hsl(0, 0%, 48%);
+}
+
+.btnGotIt {
+  display: block;
+  margin: 3.4rem auto 0;
+  height: 4.9rem;
+  width: 10.8rem;
+  border-radius: 100px;
+  background-color: hsl(176, 50%, 47%);
+  color: white;
+  border: none;
+  font-weight: 700;
+}
+
+.btnGotIt:hover {
+  cursor: pointer;
+  background-color: hsl(176, 72%, 28%);
+}
+
+@media (max-width: 600px) {
+  .completedModal {
+    width: 32.5rem;
+    padding: 3.1rem 2.5rem 4rem;
+  }
+
+  .iconCheck {
+    margin: 0 auto;
+    height: 6.4rem;
+    width: 6.4rem;
+  }
+
+  .title {
+    margin-top: 2.5rem;
+    font-size: 1.8rem;
+  }
+
+  .message {
+    margin-top: 2.4rem;
+    width: 27.5rem;
+    font-size: 1.4rem;
+    line-height: 1.7;
+  }
+
+  .btnGotIt {
+    display: block;
+    margin: 3.4rem auto 0;
+    height: 4.9rem;
+    width: 10.8rem;
+    border-radius: 100px;
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+    border: none;
+    font-weight: 700;
+  }
+
+  .btnGotIt:hover {
+    cursor: pointer;
+    background-color: hsl(176, 72%, 28%);
+  }
+}

@@ -1,0 +1,62 @@
+.selectedModalMobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .selectedModalMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 2.1rem;
+  }
+  .pledgeContainerM {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 2px;
+  }
+  .dollarSignM {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 48%);
+    opacity: 0.8;
+    position: absolute;
+    z-index: 9999;
+    right: 6.8rem;
+  }
+  .inputM {
+    width: 10rem;
+    border: none;
+    box-shadow: 0 0 0 1.2px hsl(176, 50%, 47%) inset;
+    padding-left: 2.2rem;
+    text-align: center;
+    font-weight: 700;
+  }
+  .inputM:focus {
+    outline: none;
+    box-shadow: 0 0 0 1.4px hsl(176, 72%, 28%) inset;
+  }
+
+  .inputM:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 1.4px hsl(176, 72%, 28%) inset;
+  }
+  .btnAndInputStylesM {
+    border-radius: 100px;
+    height: 4.8rem;
+  }
+  .btnContinueM {
+    background-color: hsl(176, 50%, 47%);
+    border: none;
+    color: white;
+    width: 11rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .btnContinueM:hover {
+    cursor: pointer;
+    background-color: hsl(176, 72%, 28%);
+  }
+}

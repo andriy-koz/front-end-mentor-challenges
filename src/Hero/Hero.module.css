@@ -1,0 +1,27 @@
+.hero {
+  width: 144rem;
+  height: 40rem;
+  background-image: url('../images/image-hero-desktop.jpg');
+  box-shadow: 0px 190px 103px -138px rgba(0, 0, 0, 0.7) inset;
+  -webkit-box-shadow: 0px 190px 103px -138px rgba(0, 0, 0, 0.7) inset;
+  -moz-box-shadow: 0px 190px 103px -138px rgba(0, 0, 0, 0.7) inset;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    background-image: url('../images/image-hero-mobile.jpg');
+    background-size: cover;
+    width: 37.5rem;
+    height: 30rem;
+    position: relative;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 704px 147px -390px rgba(0, 0, 0, 0.6) inset;
+    height: 50rem;
+    width: 37.5rem;
+    z-index: 2;
+  }
+}

@@ -1,0 +1,26 @@
+.App {
+  height: 215.7rem;
+  width: 144rem;
+  background-color: rgba(122, 122, 122, 0.04);
+}
+
+.margin-top {
+  margin-top: -9.3rem;
+}
+
+.margin-top-sm {
+  margin-top: 2.6rem;
+}
+
+@media (max-width: 600px) {
+  .App {
+    height: auto;
+    width: 37.5rem;
+  }
+  .padding-top {
+    padding-top: 4.5rem !important;
+  }
+  .margin-top {
+    margin-top: -5.7rem;
+  }
+}

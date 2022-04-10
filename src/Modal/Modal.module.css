@@ -1,0 +1,75 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  position: absolute;
+  top: 30.8rem;
+  left: 53.4%;
+  transform: translateX(-50%);
+  z-index: 100;
+  height: auto;
+  width: 73rem;
+  background-color: white;
+  border-radius: 8px;
+  padding: 3.5rem 3.1rem 4.8rem 4.7rem;
+}
+
+.iconCloseModal {
+  margin-left: auto;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-image: url('../images/icon-close-modal.svg');
+  background-size: cover;
+}
+
+.modal h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.modal .intro {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  padding-bottom: 1.4rem;
+  color: hsl(0, 0%, 48%);
+}
+
+/* --- ACTIVE STATES --- */
+.iconCloseModal:hover {
+  background-image: url('../images/icon-close-modal-hover.svg');
+  cursor: pointer;
+}
+
+/* --- MEDIA QUERIES --- */
+@media (max-width: 600px) {
+  .modal {
+    height: auto;
+    width: 32.5rem;
+    padding: 3.2rem 2.3rem 3rem;
+  }
+
+  .header {
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+  }
+
+  .modal h2 {
+    font-size: 1.8rem;
+  }
+
+  .modal .intro {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    padding-bottom: 0.2rem;
+  }
+}

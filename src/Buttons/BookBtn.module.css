@@ -1,0 +1,83 @@
+.bookBtn {
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  padding: 2rem 4.2rem;
+  padding-left: 6.9rem;
+  padding-right: 2.4rem;
+  border-radius: 100px;
+  position: relative;
+}
+
+.bookBtn:hover {
+  cursor: pointer;
+}
+/* .bookIcon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateX(-5%);
+  height: 5.6rem;
+  width: 5.6rem;
+  background-image: url('../images/icon-bookmark.svg');
+}
+.bookBtn:hover {
+  filter: brightness(1.02);
+  cursor: pointer;
+} */
+/* .bookBtn:hover .bookIcon {
+  background-image: url('../images/icon-bookmark-hover.svg');
+}
+.bookIcon.bookMarked {
+  background-image: url('../images/icon-bookmarked.svg');
+}
+.bookBtn.bookMarked:hover .bookIcon {
+  background-image: url('../images/icon-bookmarked.svg');
+}
+.bookIcon.bookMarked:hover {
+  background-image: url('../images/icon-bookmarked.svg');
+} */
+
+.markedBtn {
+  color: hsl(176, 72%, 28%);
+}
+
+.markBtn {
+  color: hsl(0, 0%, 48%);
+}
+
+.markBtn:hover {
+  filter: brightness(1.02);
+}
+
+.markBtn:hover .markIcon {
+  background-image: url('../images/icon-bookmark-hover.svg');
+}
+
+.bookIcon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateX(-5%);
+  height: 5.6rem;
+  width: 5.6rem;
+}
+
+.bookIcon:hover {
+  cursor: pointer;
+}
+
+.markedIcon {
+  background-image: url('../images/icon-bookmarked.svg');
+}
+
+.markIcon {
+  background-image: url('../images/icon-bookmark.svg');
+}
+
+@media (max-width: 600px) {
+  .bookBtn {
+    display: none;
+  }
+}

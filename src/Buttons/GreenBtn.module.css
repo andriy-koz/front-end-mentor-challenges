@@ -1,0 +1,26 @@
+.greenBtn {
+  border: none;
+  color: white;
+  background-color: hsl(176, 50%, 47%);
+  font-weight: 700;
+  border-radius: 100px;
+}
+
+.greenBtn:hover {
+  background-color: #147b74;
+  cursor: pointer;
+}
+
+.greenBtnMd {
+  height: 5.6rem;
+  width: 20.4rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+
+.greenBtnSm {
+  height: 4.8rem;
+  width: 15.7rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.3px;
+}
