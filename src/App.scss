@@ -1,0 +1,22 @@
+.app {
+  width: 111.2rem;
+  display: grid;
+  grid-template-columns: 1.055fr 1fr;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+@media (max-width: 1140px) {
+  .app {
+    grid-template-columns: 1fr;
+    width: auto;
+    margin: 3rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .app {
+    margin: 1.5rem;
+  }
+}

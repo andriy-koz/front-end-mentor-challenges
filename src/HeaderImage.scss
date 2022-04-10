@@ -1,0 +1,24 @@
+.header-image {
+  background-image: linear-gradient(
+      rgba(67, 0, 105, 0.5),
+      rgba(67, 0, 105, 0.5)
+    ),
+    url(./images/image-header-desktop.jpg);
+  background-size: cover;
+  height: 44.6rem;
+  width: 54rem;
+}
+
+@media (max-width: 1140px) {
+  .header-image {
+    background-size: cover;
+    height: 44.6rem;
+    width: 100%;
+    grid-row: 1 / 2;
+  }
+}
+@media (max-width: 375px) {
+  .header-image {
+    height: 24rem;
+  }
+}
