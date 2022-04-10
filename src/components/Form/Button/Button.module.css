@@ -1,0 +1,47 @@
+.button {
+  background-color: rgb(var(--green));
+  color: rgba(255, 255, 255, 0.78);
+  width: 100%;
+  padding: 2.1rem 0;
+  font-size: 1.45rem;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 -4px rgba(0, 0, 0, 0.1) inset;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.terms {
+  color: rgb(var(--grayish-blue));
+  font-weight: 300;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: -0.6rem;
+  padding: 0 2.2rem;
+}
+
+.terms span {
+  color: rgb(var(--red));
+  font-weight: 700;
+}
+
+@media (min-width: 600px) {
+  .terms {
+    margin-top: -1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .button {
+    padding: 1.8rem 0;
+    padding-top: 1.9rem;
+  }
+  .terms {
+    margin-top: -0.7rem;
+  }
+}

@@ -1,0 +1,49 @@
+.input {
+  border: 1.2px solid rgba(var(--grayish-blue), 0.5);
+  display: block;
+  width: 100%;
+  height: 5.4rem;
+  padding-left: 1.9rem;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input:focus {
+  border: 1.4px solid rgb(var(--grayish-blue));
+}
+
+.input-container {
+  position: relative;
+}
+
+.error-message {
+  margin-top: -1.1rem;
+  text-align: end;
+  font-size: 1.1rem;
+  color: rgb(var(--red));
+  font-style: italic;
+}
+
+.red-border {
+  border: 1.4px solid rgba(var(--red), 0.8);
+}
+
+.error-sign {
+  background-image: url('../../../images/icon-error.svg');
+  height: 2.4rem;
+  width: 2.4rem;
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translateY(-50%);
+  background-size: cover;
+}
+
+@media (min-width: 600px) {
+  .input {
+    padding-left: 3rem;
+  }
+}

@@ -1,0 +1,70 @@
+@import './vars.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  max-width: 37.5rem;
+  background-color: rgb(var(--red));
+  background-image: url('./images/bg-intro-mobile.png');
+  background-size: cover;
+  padding: 9rem 2.35rem 6.8rem;
+}
+
+.container {
+  max-width: 32.8rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 376px) {
+  .App {
+    max-width: 100%;
+  }
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 600px) {
+  .App {
+    max-width: 144rem;
+    background-image: url('./images/bg-intro-desktop.png');
+  }
+  .container {
+    max-width: 130rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2;
+  }
+}
+
+@media (min-width: 1200px) {
+  .App {
+    width: 144rem;
+    height: 80rem;
+    background-image: url('./images/bg-intro-desktop.png');
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    padding-top: 5.7rem;
+    width: 111rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2;
+  }
+}
