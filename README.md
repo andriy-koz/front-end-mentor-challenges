@@ -1,16 +1,16 @@
 # FrontEnd Mentor Challenges
 
-## HTML & CSS
+### HTML & CSS
 
 - huddle-landing-page - https://hudlle-landing-page-andriy.netlify.app/
 - nft-preview-card - https://nft-card-andriy.netlify.app/
 
-## HTML, CSS & JS
+### HTML, CSS & JS
 
 - tip-calculator - https://tip-calculator-andriy.netlify.app/
 - base-apparel-coming-soon - https://base-apparel-coming-soon-andriy.netlify.app/
 
-## React JS
+### React JS
 
 - todo-app - https://todo-andriy.netlify.app/
 - crowdfunding - https://crowdfunding-andriy.netlify.app/
