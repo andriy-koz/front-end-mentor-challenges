@@ -1,0 +1,126 @@
+.list {
+  position: relative;
+  padding-left: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5.3rem;
+  background-color: var(--input-bg);
+  border-bottom: 1.2px solid rgba(0, 0, 0, 0.1);
+  padding: 0 5.2rem;
+  font-size: 1.15rem;
+  color: var(--text-color);
+}
+
+.list:hover {
+  cursor: pointer;
+}
+
+.check-circle {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: 1.4px solid rgba(var(--dark-grayish-blue), 0.4);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.check-circle:hover {
+  cursor: pointer;
+}
+
+.inner-check-circle {
+  display: none;
+}
+
+.list .icon-cross {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2rem;
+  height: 1.4rem;
+  width: 1.4rem;
+  display: none;
+}
+
+.list .icon-cross:hover {
+  cursor: pointer;
+}
+
+.selected .icon-cross {
+  display: block;
+}
+
+.selected .check-circle {
+  background: linear-gradient(
+    to right bottom,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+  border: none;
+}
+
+.selected .inner-check-circle {
+  z-index: 3;
+  display: block;
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 50%;
+  background-color: var(--input-bg);
+  margin: 0 auto;
+}
+
+.completed .check-circle {
+  background: linear-gradient(
+    to right bottom,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+  border: none;
+}
+
+.completed .inner-check-circle {
+  display: none;
+}
+
+.list p {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.icon-check {
+  display: none;
+  z-index: 3;
+}
+
+.completed .icon-check {
+  display: block;
+  margin: 0 auto;
+}
+
+.completed p {
+  text-decoration: line-through;
+  color: rgb(var(--dark-grayish-blue));
+}
+
+@media (min-width: 376px) {
+  .list {
+    height: 6.3rem;
+    padding-left: 7.4rem;
+    font-size: 1.8rem;
+  }
+  .check-circle {
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+  .selected .inner-check-circle {
+    height: 2rem;
+    width: 2rem;
+  }
+}

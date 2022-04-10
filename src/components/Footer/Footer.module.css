@@ -1,0 +1,35 @@
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 8px rgb(0, 0, 0, 0.3);
+  margin-top: 1.6rem;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--input-bg);
+}
+
+.card button {
+  margin: 0 1rem;
+  color: rgb(var(--dark-grayish-blue));
+}
+
+.card button:hover {
+  cursor: pointer;
+}
+
+.card .selected {
+  color: hsl(220, 98%, 61%);
+}
+
+@media (min-width: 376px) {
+  .card {
+    box-shadow: none;
+    margin-top: 0;
+    font-size: 1.3rem;
+  }
+  .card button {
+    font-weight: 700;
+  }
+}

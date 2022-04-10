@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.App {
+  background-image: var(--app-img);
+  background-color: var(--app-bg);
+  background-repeat: no-repeat;
+  max-width: 37.5rem;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 32.5rem;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+input {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+@media (min-width: 376px) {
+  .App {
+    max-width: 144rem;
+    background-image: var(--desktop-bg);
+    background-size: 100% 27rem;
+  }
+  .container {
+    max-width: 54rem;
+    margin: 0 auto;
+  }
+}

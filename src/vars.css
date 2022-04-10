@@ -1,0 +1,22 @@
+:root {
+  --bright-blue: 58, 123, 253;
+  /* Light Theme */
+  --very-light-gray: 250, 250, 250;
+  --very-light-grayish-blue: 228, 229, 241;
+  --light-grayish-blue: 210, 211, 219;
+  --dark-grayish-blue: 147, 148, 165;
+  --very-dark-grayish-blue: 72, 75, 106;
+  --input-bg: hsl(0, 0%, 98%);
+  --app-img: url('./images/bg-mobile-light.jpg');
+  --text-color: hsl(235, 19%, 35%);
+  --app-bg: hsl(236, 33%, 92%);
+  --desktop-bg: url('./images/bg-desktop-light.jpg');
+}
+
+[data-theme='dark'] {
+  --input-bg: hsl(235, 24%, 19%);
+  --app-img: url('./images/bg-mobile-dark.jpg');
+  --text-color: hsl(234, 39%, 85%);
+  --app-bg: hsl(235, 21%, 11%);
+  --desktop-bg: url('./images/bg-desktop-dark.jpg');
+}

@@ -1,0 +1,36 @@
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 8px rgb(0, 0, 0, 0.3);
+  margin-top: 1.6rem;
+}
+
+.list-footer-mobile {
+  color: rgb(var(--dark-grayish-blue));
+  font-size: 1.15rem;
+  background-color: var(--input-bg);
+  height: 5.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.btn-clear {
+  color: rgb(var(--dark-grayish-blue));
+}
+
+.btn-clear:hover {
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+@media (min-width: 376px) {
+  .card {
+    margin-top: 2.4rem;
+  }
+  .list-footer-mobile {
+    font-size: 1.3rem;
+    padding: 0 2.4rem;
+  }
+}
