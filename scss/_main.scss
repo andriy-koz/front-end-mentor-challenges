@@ -1,0 +1,46 @@
+.main {
+  margin-top: 7.6rem;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  column-gap: 4.5rem;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: $font-body;
+  color: white;
+}
+
+.cta-title {
+  font-family: $font-heading;
+  font-size: 4rem;
+  max-width: 45rem;
+}
+
+.cta-text {
+  max-width: 52rem;
+  margin-top: 2.6rem;
+  font-size: 1.8rem;
+}
+
+.cta-btn {
+  border: none;
+  border-radius: 10rem;
+  background-color: white;
+  width: 20rem;
+  height: 5.5rem;
+  font-size: 1.8rem;
+  color: $color-violet;
+  box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 2.5rem;
+  margin-bottom: 12rem;
+}
+
+.cta-btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: $color-soft-magenta;
+}

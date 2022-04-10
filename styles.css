@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #674baf;
+  background-image: url("../images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  height: 80rem;
+  width: 144rem;
+}
+
+.container {
+  max-width: 128rem;
+  margin: 0 auto;
+}
+
+footer {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #adadad;
+}
+
+.attribution a {
+  color: #e972e9;
+}
+
+.brand {
+  padding-top: 5rem;
+}
+
+.brand-icon {
+  width: 22rem;
+  height: 6rem;
+}
+
+.main {
+  margin-top: 7.6rem;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  column-gap: 4.5rem;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.cta-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  max-width: 45rem;
+}
+
+.cta-text {
+  max-width: 52rem;
+  margin-top: 2.6rem;
+  font-size: 1.8rem;
+}
+
+.cta-btn {
+  border: none;
+  border-radius: 10rem;
+  background-color: white;
+  width: 20rem;
+  height: 5.5rem;
+  font-size: 1.8rem;
+  color: #674baf;
+  box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 2.5rem;
+  margin-bottom: 12rem;
+}
+
+.cta-btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #e882e8;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.social-media .icons {
+  height: 1.8rem;
+  width: 1.8rem;
+  color: white;
+  border: 1.2px solid white;
+  border-radius: 50%;
+  padding: 0.8rem;
+}
+.social-media .icons:hover {
+  cursor: pointer;
+  color: #e882e8;
+  border-color: #e882e8;
+}
+
+@media (max-width: 375px) {
+  body {
+    width: 37.5rem;
+    background-image: url("../images/bg-mobile.svg");
+  }
+
+  .container {
+    max-width: 30rem;
+  }
+
+  .brand {
+    padding-top: 3rem;
+  }
+
+  .brand-icon {
+    width: 13rem;
+    height: 3rem;
+  }
+
+  .main {
+    margin-top: 6.4rem;
+    grid-template-columns: 1fr;
+  }
+
+  .mockups {
+    width: 30rem;
+  }
+
+  .cta {
+    align-items: center;
+    text-align: center;
+  }
+
+  .cta-title {
+    margin-top: 5.5rem;
+    font-size: 2.3rem;
+    max-width: 27rem;
+  }
+
+  .cta-text {
+    margin-top: 2.4rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .cta-btn {
+    width: 21rem;
+    height: 4rem;
+    font-size: 1.2rem;
+  }
+
+  .social-media {
+    margin-top: 6.2rem;
+    justify-content: center;
+  }
+  .social-media .icons {
+    width: 1.4rem;
+    height: 1.4rem;
+    padding: 0.5rem;
+  }
+
+  footer {
+    height: auto;
+    margin-top: 2rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

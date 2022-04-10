@@ -1,0 +1,65 @@
+@media (max-width: 375px) {
+  body {
+    width: 37.5rem;
+    background-image: url('../images/bg-mobile.svg');
+  }
+
+  .container {
+    max-width: 30rem;
+  }
+
+  .brand {
+    padding-top: 3rem;
+  }
+  .brand-icon {
+    width: 13rem;
+    height: 3rem;
+  }
+
+  .main {
+    margin-top: 6.4rem;
+    grid-template-columns: 1fr;
+  }
+
+  .mockups {
+    width: 30rem;
+  }
+
+  .cta {
+    align-items: center;
+    text-align: center;
+  }
+
+  .cta-title {
+    margin-top: 5.5rem;
+    font-size: 2.3rem;
+    max-width: 27rem;
+  }
+
+  .cta-text {
+    margin-top: 2.4rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .cta-btn {
+    width: 21rem;
+    height: 4rem;
+    font-size: 1.2rem;
+  }
+
+  .social-media {
+    margin-top: 6.2rem;
+    justify-content: center;
+    .icons {
+      width: 1.4rem;
+      height: 1.4rem;
+      padding: 0.5rem;
+    }
+  }
+
+  footer {
+    height: auto;
+    margin-top: 2rem;
+  }
+}

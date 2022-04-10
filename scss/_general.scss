@@ -1,0 +1,46 @@
+// Colors
+$color-violet: hsl(257, 40%, 49%);
+$color-soft-magenta: hsl(300, 69%, 71%);
+
+// Fonts
+$font-heading: 'Poppins', sans-serif;
+$font-body: 'Open Sans', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url('../images/bg-desktop.svg');
+  background-repeat: no-repeat;
+  height: 80rem;
+  width: 144rem;
+}
+
+.container {
+  max-width: 128rem;
+  margin: 0 auto;
+}
+
+footer {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: rgb(173, 173, 173);
+}
+.attribution a {
+  color: hsl(300, 73%, 68%);
+}
