@@ -1,0 +1,43 @@
+.TextSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  color: hsl(300, 43%, 22%);
+}
+
+.TextSection__title {
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: -3px;
+  line-height: 0.95;
+}
+
+.TextSection__paragraph {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  letter-spacing: -0.45px;
+}
+
+@media (max-width: 700px) {
+  .TextSection {
+    width: 44.3rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .TextSection {
+    width: 30rem;
+    align-items: center;
+  }
+  .TextSection__title {
+    font-size: 3.1rem;
+    width: 25rem;
+  }
+
+  .TextSection__paragraph {
+    font-size: 1.4rem;
+    line-height: 1.7;
+    letter-spacing: -0.45px;
+  }
+}

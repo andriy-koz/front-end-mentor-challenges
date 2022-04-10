@@ -1,0 +1,31 @@
+.StarsComponent {
+  display: flex;
+  align-items: center;
+  height: 5.6rem;
+  width: 44.3rem;
+  padding-left: 3.2rem;
+  border-radius: 8px;
+  color: hsl(300, 43%, 22%);
+  background-color: rgba(138, 59, 105, 0.05);
+}
+
+.StarsText {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-left: 3.2rem;
+}
+
+@media (max-width: 500px) {
+  .StarsComponent {
+    width: 30rem;
+    height: 7rem;
+    flex-direction: column;
+    padding-left: 0;
+    justify-content: space-around;
+  }
+  .StarsText {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 0;
+  }
+}

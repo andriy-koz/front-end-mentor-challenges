@@ -1,0 +1,32 @@
+.StarsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding-top: 2.5%;
+}
+
+.mg-left-md {
+  margin-left: 4.7rem;
+}
+
+.mg-left-lg {
+  margin-left: 9.5rem;
+}
+
+@media (max-width: 700px) {
+  .StarsSection {
+    align-items: center;
+  }
+  .mg-left-md {
+    margin-left: 0;
+  }
+  .mg-left-lg {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .StarsSection {
+    padding-top: 0;
+  }
+}

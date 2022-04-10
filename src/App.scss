@@ -1,0 +1,22 @@
+.App {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  column-gap: 11.4%;
+  row-gap: 14.2%;
+  max-width: 111rem;
+}
+
+@media (max-width: 700px) {
+  .App {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    margin: 4rem auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .App {
+    margin: 7.5rem auto;
+    row-gap: 4.6rem;
+  }
+}
