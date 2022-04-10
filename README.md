@@ -10,7 +10,7 @@
 - tip-calculator - https://tip-calculator-andriy.netlify.app/
 - base-apparel-coming-soon - https://base-apparel-coming-soon-andriy.netlify.app/
 
-### React JS
+### REACT JS
 
 - todo-app - https://todo-andriy.netlify.app/
 - crowdfunding - https://crowdfunding-andriy.netlify.app/
