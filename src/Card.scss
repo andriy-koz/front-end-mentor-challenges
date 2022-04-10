@@ -1,0 +1,24 @@
+.card {
+  width: 50rem;
+  padding-bottom: 5.5rem;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: hsl(225, 100%, 98%);
+  box-shadow: 0 20px 30px rgba(31, 47, 86, 0.12);
+}
+
+.image {
+  max-width: 50rem;
+  height: 24.5rem;
+}
+
+@media (max-width: 625px) {
+  .card {
+    width: 41rem;
+    padding-bottom: 4.2rem;
+  }
+
+  .image {
+    height: 20rem;
+  }
+}

@@ -1,0 +1,55 @@
+.plan {
+  display: flex;
+  margin: 2.2rem auto 0;
+  height: 11rem;
+  max-width: 39.4rem;
+  align-items: center;
+  background-color: rgba(224, 232, 255, 0.3);
+  padding: 0 2.7rem;
+  border-radius: 12px;
+}
+.plan__icon {
+  width: 5.3rem;
+  height: 5.3rem;
+}
+.plan__container {
+  margin-left: 2.1rem;
+  height: 5.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.plan__title {
+  letter-spacing: -0.7px;
+  font-size: 1.9rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.plan__price {
+  font-size: 1.9rem;
+  color: hsl(224, 23%, 55%);
+}
+.plan__change {
+  font-size: 1.6rem;
+  margin-left: auto;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+  transition: all 0.2s;
+}
+
+.plan__change:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 625px) {
+  .plan {
+    margin: 2.8rem auto 0;
+    height: 11rem;
+    max-width: 34.5rem;
+    padding: 0 1.9rem;
+  }
+  .plan__icon {
+    width: 6.2rem;
+    height: 6.2rem;
+  }
+}
