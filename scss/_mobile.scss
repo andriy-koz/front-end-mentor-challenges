@@ -1,0 +1,56 @@
+@media (max-width: 900px) {
+  .hero-img {
+    visibility: hidden;
+  }
+  .hero-mobile {
+    display: block;
+    width: 50rem;
+    margin-top: 3.8rem;
+  }
+
+  .container {
+    margin: 0;
+  }
+
+  .logo {
+    transform: scale(0.8);
+    margin-top: 3.85rem;
+    margin-left: 2.8rem;
+  }
+
+  .title {
+    margin-top: 8.55rem;
+    text-align: center;
+    font-size: 5.4rem;
+    letter-spacing: 14px;
+  }
+
+  .span-soon {
+    margin-top: 0.15rem;
+  }
+
+  .text {
+    text-align: center;
+    max-width: 39.4rem;
+    margin: 2.25rem auto 0;
+    font-size: 1.8rem;
+    letter-spacing: 0.3px;
+    line-height: 1.6;
+  }
+
+  .email-form {
+    margin: 4.6rem auto 0;
+    height: 6.3rem;
+    width: 41.2rem;
+  }
+
+  .btn-submit {
+    height: 6.4rem;
+    width: 12rem;
+    margin-right: -0.3rem;
+  }
+
+  .email-input {
+    letter-spacing: 1.4px;
+  }
+}

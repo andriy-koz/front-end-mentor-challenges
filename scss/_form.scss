@@ -1,0 +1,118 @@
+.main-window {
+  max-width: 144rem;
+  display: grid;
+  grid-template-columns: 83rem 61rem;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 6.45rem;
+}
+
+.title {
+  margin-top: 13.45rem;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+  letter-spacing: 17.1px;
+  span {
+    display: inline-block;
+  }
+}
+
+.span-we {
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+}
+
+.span-coming {
+  margin-top: 0.3rem;
+}
+
+.span-soon {
+  margin-top: 0.65rem;
+}
+
+.text {
+  max-width: 45rem;
+  margin-top: 2.3rem;
+  font-size: 1.6rem;
+  line-height: 1.72;
+  letter-spacing: 0.06px;
+  color: hsl(0, 36%, 70%);
+}
+
+.email-form {
+  margin-top: 4.1rem;
+  border-radius: 100px;
+  height: 5.6rem;
+  width: 44rem;
+  border: 1px solid hsla(0, 36%, 70%, 0.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  transition: all 0.3 ease;
+}
+
+.email-input {
+  background: transparent;
+  width: auto;
+  outline: none;
+  border: 0;
+  padding-left: 3rem;
+  font-size: 1.6rem;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 100px;
+  height: 5.4rem;
+  width: 44.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.email-input::placeholder {
+  color: hsla(0, 36%, 70%, 0.6);
+}
+
+.btn-submit {
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  height: 5.6rem;
+  width: 13.3rem;
+  border-radius: 100px;
+  z-index: 100;
+  border: none;
+  margin-right: -0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 18px 20px -2px rgb(206 151 151 / 40%);
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+  background-image: none;
+  background-color: hsl(0, 80%, 86%);
+}
+
+.error-message {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-left: 3.2rem;
+  color: hsl(0, 93%, 68%);
+  visibility: hidden;
+}
+
+.err-icon {
+  margin-right: 0rem;
+  position: absolute;
+  right: 11rem;
+  z-index: 999;
+  visibility: hidden;
+}
+
+.hero-mobile {
+  display: none;
+}
