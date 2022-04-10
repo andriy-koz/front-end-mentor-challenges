@@ -1,0 +1,17 @@
+.input-data:focus {
+  box-shadow: 0 0 0 2px $strong-cyan;
+  outline: none;
+}
+
+.btn-tip:hover,
+.active {
+  background-color: $strong-cyan;
+  cursor: pointer;
+  color: $very-dark-cyan;
+}
+
+.btn-reset:hover {
+  background-color: $strong-cyan;
+  color: $very-dark-cyan;
+  cursor: pointer;
+}

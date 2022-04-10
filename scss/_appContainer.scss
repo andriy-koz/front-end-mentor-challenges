@@ -1,0 +1,22 @@
+html {
+  background-color: $light-grayish-cyan;
+}
+.logo {
+  align-self: center;
+  width: 11rem;
+  margin-top: 1.8rem;
+}
+.container {
+  max-width: 110rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.calc-container {
+  background-color: $white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10.2rem;
+  padding: 3.2rem 3rem 3rem 5%;
+  border-radius: 3rem;
+}

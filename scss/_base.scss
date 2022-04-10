@@ -1,0 +1,26 @@
+// Colors
+$strong-cyan: hsl(172, 67%, 45%);
+$very-dark-cyan: hsl(183, 100%, 15%);
+$dark-grayish-cyan: hsl(186, 14%, 43%);
+$dark-grayish-cyan2: hsl(184, 14%, 56%);
+$light-grayish-cyan: hsl(185, 41%, 84%);
+$light-grayish-cyan2: hsl(189, 41%, 97%);
+$white: hsl(0, 0%, 100%);
+
+// Typography
+$font-family: 'Space Mono', monospace;
+$font-normal: 400;
+$font-bold: 700;
+$font-df-size: 2.4rem;
+
+// Resets
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 65.2%;
+  box-sizing: border-box;
+  font-family: $font-family;
+}

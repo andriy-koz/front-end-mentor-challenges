@@ -1,0 +1,106 @@
+// 860px
+//////////////////////////////////
+@media (max-width: 925px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+// 860px
+//////////////////////////////////
+@media (max-width: 860px) {
+  html {
+    font-size: 55%;
+  }
+  .tip-buttons {
+    margin-top: 1rem;
+    gap: 1.6rem;
+  }
+  .btn-tip {
+    font-size: 2.5rem;
+  }
+}
+
+// 790px
+//////////////////////////////////
+@media (max-width: 790px) {
+  .display-section {
+    padding: 2rem 1rem;
+  }
+  .tip-buttons {
+    gap: 1rem;
+  }
+  .input-section {
+    padding: 2rem 2rem 2rem 0;
+    gap: 2rem;
+  }
+  .value-amount {
+    font-size: 4rem;
+  }
+}
+
+// 650px
+//////////////////////////////////
+@media (max-width: 650px) {
+  .calc-container {
+    margin-top: 6rem;
+    padding: 2rem;
+  }
+  .btn-tip {
+    font-size: 2rem;
+  }
+  .calc-container {
+    grid-template-columns: 1fr;
+    padding: 3.2rem 8rem;
+    row-gap: 2.6rem;
+  }
+  .input-section {
+    padding: 0;
+    gap: 4rem;
+  }
+  .display-section {
+    gap: 2rem;
+  }
+
+  // 400px
+  //////////////////////////////////
+  @media (max-width: 400px) {
+    .logo {
+      width: 10rem;
+      margin-top: 5.5rem;
+    }
+    .calc-container {
+      margin-top: 5rem;
+      padding: 3.2rem;
+      border-radius: 3rem;
+      row-gap: 3.4rem;
+    }
+    .input-label {
+      font-size: 1.8rem;
+      font-weight: $font-bold;
+      margin-bottom: 0.8rem;
+    }
+    .tip-buttons {
+      margin-top: 1.2rem;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.2rem;
+    }
+    .input-icon {
+      transform: translate(100%, 100%);
+    }
+    .btn-tip {
+      border-radius: 8px;
+      height: 5.5rem;
+      font-family: $font-family;
+      font-weight: $font-bold;
+      font-size: 2.6rem;
+    }
+    .display-section {
+      padding: 4.6rem 2rem 2.8rem;
+      gap: 3rem;
+    }
+    .display-values {
+      gap: 1.8rem;
+    }
+  }
+}
