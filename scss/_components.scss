@@ -1,0 +1,107 @@
+// Body Styles
+body {
+  background-color: $dark-blue-main;
+  height: 90rem;
+}
+
+// Card Styles
+.card {
+  background-color: $dark-blue-card;
+  border-radius: 14px;
+  box-shadow: 0px 13px 32px 60px rgb(0 0 0 / 10%);
+}
+.card-container {
+  max-width: 30.2rem;
+}
+
+// Img Styles
+.img-equilibrium {
+  width: 30.2rem;
+  border-radius: 8px;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 99.1%;
+  width: 100%;
+  opacity: 0;
+}
+
+.img-overlay:hover {
+  background-color: rgba(0, 255, 247, 0.5);
+  cursor: pointer;
+  opacity: 1;
+  border-radius: 8px;
+}
+
+// Text Styles
+.title {
+  color: $white;
+  font-size: 2.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: $cyan;
+}
+
+.text {
+  color: $soft-blue;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+// Info Styles
+.info {
+  font-size: 1.5rem;
+  border-bottom: 1px solid $dark-blue-line;
+}
+// Eth Styles
+.eth {
+  color: $cyan;
+}
+
+.eth-text {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+// Days Styles
+.days {
+  color: $soft-blue;
+}
+
+.days-text {
+  letter-spacing: 0.6px;
+}
+
+// Author Styles
+.author {
+  font-size: 1.6rem;
+}
+.author-img {
+  width: 3.1rem;
+  border: 1px solid $white;
+  border-radius: 50%;
+}
+.author-text {
+  color: $soft-blue;
+}
+.author-name {
+  color: $white;
+}
+
+.author-name:hover {
+  cursor: pointer;
+  color: $cyan;
+}

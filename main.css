@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2.4rem 2.4rem 3.2rem;
+}
+
+.img-equilibrium {
+  align-self: center;
+}
+
+.title {
+  margin-top: 2.2rem;
+}
+
+.text {
+  margin-top: 2rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.4rem;
+  padding-bottom: 2.5rem;
+}
+
+.eth {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.days {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.days-text {
+  margin-right: 0.2rem;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1.6rem;
+}
+
+.author-text {
+  margin-top: 2%;
+  margin-left: 5.2%;
+}
+
+body {
+  background-color: #0d192b;
+  height: 90rem;
+}
+
+.card {
+  background-color: #14253d;
+  border-radius: 14px;
+  box-shadow: 0px 13px 32px 60px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+  max-width: 30.2rem;
+}
+
+.img-equilibrium {
+  width: 30.2rem;
+  border-radius: 8px;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 99.1%;
+  width: 100%;
+  opacity: 0;
+}
+
+.img-overlay:hover {
+  background-color: rgba(0, 255, 247, 0.5);
+  cursor: pointer;
+  opacity: 1;
+  border-radius: 8px;
+}
+
+.title {
+  color: white;
+  font-size: 2.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: #00fff7;
+}
+
+.text {
+  color: #8bacda;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.info {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #2f415b;
+}
+
+.eth {
+  color: #00fff7;
+}
+
+.eth-text {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.days {
+  color: #8bacda;
+}
+
+.days-text {
+  letter-spacing: 0.6px;
+}
+
+.author {
+  font-size: 1.6rem;
+}
+
+.author-img {
+  width: 3.1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.author-text {
+  color: #8bacda;
+}
+
+.author-name {
+  color: white;
+}
+
+.author-name:hover {
+  cursor: pointer;
+  color: #00fff7;
+}
+
+@media (max-width: 375px) {
+  body {
+    height: 66.7rem;
+  }
+
+  .card {
+    margin-top: 6.8%;
+    padding: 2.4rem 2.4rem 2.6rem;
+  }
+
+  .img-equilibrium {
+    width: 27.8rem;
+  }
+
+  .card-container {
+    max-width: 27.8rem;
+  }
+
+  .text {
+    margin-top: 5%;
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+
+  .info {
+    margin-top: 5%;
+    padding-bottom: 6%;
+  }
+
+  .author-text {
+    letter-spacing: -0.3px;
+  }
+
+  .days-text {
+    letter-spacing: -0.1px;
+  }
+
+  .eth-text {
+    letter-spacing: -0.2px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
